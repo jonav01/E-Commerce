@@ -1,0 +1,44 @@
+.loginForm
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.loginForm>label
+{
+    margin: 10px 0px;
+    font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.loginForm>input{
+    width: 20vw;
+    height: 4vh;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.loginForm>button
+{
+    width: 20vw;
+    padding: 10px 0px;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    border: 1px solid purple;
+}
+.loginForm>button:hover
+{
+    border: 1px solid white;
+    background-color: purple;
+    color: white;
+}
+.loginForm>p
+{
+    margin:6px 0px;
+    color: red;
+    font-weight: 500;
+}
+.invalid
+{
+    border: 2px solid red;
+    background-color: seashell;
+    color: black;
+}

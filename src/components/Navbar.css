@@ -1,0 +1,58 @@
+.navbar
+{
+    display: flex;
+    padding: 30px;
+}
+
+.navbar>h1{
+    margin-right: 15rem;
+    font-size: 3rem;
+}
+.navbar__List
+{
+    display: flex;
+    width: 30vw;
+    margin-right: 15rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.navbar__List>a{
+    margin-right: 3rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    transition: font-size 0.2s ease-in-out;
+}
+.navbar__List>a:hover
+{
+    opacity: 1;
+    font-size: 25px;
+}
+.signIn__btn
+{
+    padding: 15px 45px;
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 12px;
+}
+.cart-icon
+{
+    margin: 10px 50px;
+}
+.signIn__btn:hover
+{
+    cursor: pointer;
+}
+
+.cartIcon:hover
+{
+    cursor: pointer;
+}

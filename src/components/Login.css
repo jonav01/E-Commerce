@@ -1,0 +1,38 @@
+.loginPage
+{
+    display: grid;
+    grid-template-columns:  0.5fr auto;
+    grid-template-rows:  auto;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+.loginPage__left>a
+{
+    text-decoration: none;
+    color: black;
+}
+.loginPage__left
+{
+    background-color: #A59BE0;
+    padding: 5rem;
+    font-size: 2rem;
+}
+.loginPage__right
+{
+    padding: 10rem 4rem;
+}
+.loginPage__btn
+{
+    padding: 2rem 5rem;
+    border-radius: 40px;
+    border: 2px solid purple;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.active
+{
+    background-color: purple;
+    color: white;
+    font-weight: 900;
+}

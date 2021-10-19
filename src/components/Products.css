@@ -1,0 +1,52 @@
+.products
+{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;    
+
+}
+.header
+{
+    margin-left: 40px;
+    font-size: 2.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+}
+.products__List{
+    margin-bottom: 20px;
+}
+.prod__img{
+    width: 20vw;
+    height: 40vh;
+}
+.products__ListAbout
+{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.products__ListAbout>h3{
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+.products__ListAbout>span{
+    font-size: 1.7rem;
+    padding: 10px 0px;
+}
+.cartAdding__btn>button
+{
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 12px 0px;
+    border-radius: 10px;
+}
+.cartAdding__btn>button:hover
+{
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+}

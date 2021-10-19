@@ -1,0 +1,23 @@
+.banner
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    background-color: #A59BE0;
+}
+
+.banner__Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.banner__Text>h3{
+    font-size: 5rem;
+    word-spacing: 6px;
+    letter-spacing: 5px;
+}
+.banner__Text>span{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
